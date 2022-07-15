@@ -31,12 +31,12 @@
     "karma-webpack": "^1.8.1",
     "mocha": "^2.3.4",
     "phantomjs-prebuilt": "^2.1.15",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "webpack": "^1.12.9"
   },
   "peerDependencies": {
-    "react": "^0.14.0 || ^15.0.0-0 || ^16.0.0-0 || ^17.0.0"
+    "react": "^0.14.0 || ^15.0.0-0 || ^16.0.0-0 || ^17.0.0 || ^18.0.0"
   },
   "scripts": {
     "test": "npm run lint && karma start spec/setup/karma.conf.js",
